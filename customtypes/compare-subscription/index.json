@@ -1,0 +1,21 @@
+{
+  "id": "compare-subscription",
+  "label": "compareSubsciption",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "subscription_option": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

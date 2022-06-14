@@ -1,0 +1,292 @@
+{
+  "slices": {
+    "components": {
+      "recommended_subscription_option": {
+        "library": "slices",
+        "id": "recommended_subscription_option",
+        "name": "RecommendedSubscriptionOption",
+        "description": "RecommendedSubscriptionOption",
+        "model": {
+          "id": "recommended_subscription_option",
+          "type": "SharedSlice",
+          "name": "RecommendedSubscriptionOption",
+          "description": "RecommendedSubscriptionOption",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "RecommendedSubscriptionOption",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "recommended_subscription_option",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Incubate 24/7 synergies",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Magna minim anim fugiat nostrud.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/macbook/Documents/ab/app/.slicemachine/assets/slices/RecommendedSubscriptionOption/default/preview.png",
+            "width": 800,
+            "height": 242
+          }
+        }
+      },
+      "subscription_option": {
+        "library": "slices",
+        "id": "subscription_option",
+        "name": "SubscriptionOption",
+        "description": "SubscriptionOption",
+        "model": {
+          "id": "subscription_option",
+          "type": "SharedSlice",
+          "name": "SubscriptionOption",
+          "description": "SubscriptionOption",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SubscriptionOption",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "price": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Price",
+                    "placeholder": ""
+                  }
+                },
+                "serving": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Serving",
+                    "placeholder": ""
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": ""
+                  }
+                },
+                "": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "recommended",
+              "name": "recommended",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SubscriptionOption",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "price": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Price",
+                    "placeholder": ""
+                  }
+                },
+                "serving": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Serving",
+                    "placeholder": ""
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": ""
+                  }
+                },
+                "": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "subscription_option",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Unleash bleeding-edge bandwidth",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Eiusmod dolore ea irure occaecat qui non veniam fugiat veniam ullamco exercitation occaecat.",
+                  "spans": []
+                }
+              ],
+              "price": 9686,
+              "serving": "exploit robust architectures",
+              "subtitle": "unleash global systems",
+              "": [
+                {
+                  "type": "paragraph",
+                  "text": "Est reprehenderit dolore ad commodo. Pariatur ullamco non eu quis consectetur velit.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "recommended": {
+            "variation": "recommended",
+            "name": "recommended",
+            "slice_type": "subscription_option",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Reintermediate synergistic infomediaries",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ad cupidatat id voluptate anim laborum aute amet aliqua deserunt deserunt ullamco. Est nulla pariatur excepteur.",
+                  "spans": []
+                }
+              ],
+              "price": 8158,
+              "serving": "streamline compelling functionalities",
+              "subtitle": "harness distributed communities",
+              "": [
+                {
+                  "type": "paragraph",
+                  "text": "Officia ullamco deserunt fugiat sunt.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/macbook/Documents/ab/app/.slicemachine/assets/slices/SubscriptionOption/default/preview.png",
+            "width": 800,
+            "height": 601
+          },
+          "recommended": {
+            "path": "/Users/macbook/Documents/ab/app/.slicemachine/assets/slices/SubscriptionOption/recommended/preview.png",
+            "width": 800,
+            "height": 601
+          }
+        }
+      }
+    }
+  }
+}

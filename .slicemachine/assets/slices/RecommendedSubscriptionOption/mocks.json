@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "recommended_subscription_option",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Incubate 24/7 synergies",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Magna minim anim fugiat nostrud.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

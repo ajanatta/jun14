@@ -1,0 +1,10 @@
+{
+  "_cts": {
+    "homepage": {},
+    "compare-subscription": {}
+  },
+  "slices": {
+    "SubscriptionOption": {},
+    "RecommendedSubscriptionOption": {}
+  }
+}
