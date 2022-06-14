@@ -22,6 +22,11 @@ export default {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap",
       },
+    ],
+    scripts: [
+      {
+        src: "https://static.cdn.prismic.io/prismic.js?new=true&repo=juntwo"
+      }
     ]
   },
 
