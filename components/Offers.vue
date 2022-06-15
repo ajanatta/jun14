@@ -1,6 +1,6 @@
 <template>
   <section class="offer-container">
-      <img :src="data.primary.logo.url" />
+      <img :src="data.primary.logo.url" class="logo" />
       <div class="description">
         {{ data.primary.description }}
       </div>
@@ -54,13 +54,10 @@ export default {
 
 <style scoped>
 
-.offer-container {
-  font-family: "Roboto";
-  background-color: #dae7d4;
-  border:1px solid #ccc;
-  padding:0 20px;
-}
 
+.logo {
+  width: 128px;
+}
 .description {
   font-weight: 100;
   margin-bottom: 20px;
