@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <NuxtLink to="/about">About</NuxtLink>
     <Offers />
     <Ingredients />
   </div>

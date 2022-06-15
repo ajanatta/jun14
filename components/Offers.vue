@@ -1,36 +1,40 @@
 <template>
   <section class="offer-container">
-      <img :src="data.primary.logo.url" class="logo" />
-      <div class="description">
-        {{ data.primary.description }}
-      </div>
-      <template v-for="offer in data.items">
-        <div class="offer" v-bind:key="offer.price">
-          <div class="header">
-            <div class="offer-badge" v-if="offer['offer-badge']"> {{ offer["offer-badge"] }} </div>
-            <h3>{{ offer.plan }}</h3>
-            <span class="header-price">${{ offer.price }}</span>
-            <span class="header-old-price" v-if="offer['old-price']"> ${{ offer['old-price'] }} </span>
-            <div class="header-serving">$3.30 Per Serving</div>
-          </div>
-
-          <div class="body">
-            <img alt="AG1 Product" :src="offer['product-image'].url" />
-            <div class="hr" />
-            <div class="body-sub-title">Try out AG1</div>
-            <ul>
-                <li v-for="feature in offer.features" v-bind:key="feature">{{ feature.text }}</li>
-            </ul>
-          </div>
-
-          <div class="footer">
-            <a href="#">Buy Now</a>
-            <div class="footer-text"> 
-              {{ offer['footer-text'] }}
-            </div>
-          </div>          
+      <p v-if="$fetchState.pending">Loading....</p>
+      <p v-else-if="$fetchState.error">Error while fetching mountains</p>
+      <div v-else>
+        <img :src="data.primary.logo.url" class="logo" />
+        <div class="description">
+          {{ data.primary.description }}
         </div>
-      </template>
+        <template v-for="offer in data.items">
+          <div class="offer" v-bind:key="offer.price">
+            <div class="header">
+              <div class="offer-badge" v-if="offer['offer-badge']"> {{ offer["offer-badge"] }} </div>
+              <h3>{{ offer.plan }}</h3>
+              <span class="header-price">${{ offer.price }}</span>
+              <span class="header-old-price" v-if="offer['old-price']"> ${{ offer['old-price'] }} </span>
+              <div class="header-serving">$3.30 Per Serving</div>
+            </div>
+
+            <div class="body">
+              <img alt="AG1 Product" :src="offer['product-image'].url" />
+              <div class="hr" />
+              <div class="body-sub-title">Try out AG1</div>
+              <ul>
+                  <li v-for="feature in offer.features" v-bind:key="feature">{{ feature.text }}</li>
+              </ul>
+            </div>
+
+            <div class="footer">
+              <a href="#">Buy Now</a>
+              <div class="footer-text"> 
+                {{ offer['footer-text'] }}
+              </div>
+            </div>          
+          </div>
+        </template>
+      </div>
   </section>
 </template>
 
@@ -42,12 +46,9 @@ export default {
     data: {}
   }),
   async fetch() {
-      const response = await this.$prismic.api.getSingle('offer-section')
-        .then( (response) => {
-            return response.data.body[0];
-        })
-        .catch( (err) => console.log(err));
-        this.data = response;
+      const response = await this.$prismic.api.getSingle('offer-section');
+      console.log(response.data.body[0]);
+      this.data = response.data.body[0];
   }
 }
 </script>

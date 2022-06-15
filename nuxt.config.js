@@ -25,11 +25,11 @@ export default {
     ],
     scripts: [
       {
-        src: "https://static.cdn.prismic.io/prismic.js?new=true&repo=juntwo",
+        src: "https://dev.visualwebsiteoptimizer.com/lib/630183.js",
       },
       {
-        src: "https://dev.visualwebsiteoptimizer.com/lib/630183.js",
-      }
+        src: "https://static.cdn.prismic.io/prismic.js?new=true&repo=juntwo",
+      },
     ]
   },
 
