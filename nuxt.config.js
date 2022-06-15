@@ -25,10 +25,6 @@ export default {
     ],
     scripts: [
       {
-        src: "https://dev.visualwebsiteoptimizer.com/lib/630183.js",
-        mode: "client"
-      },
-      {
         src: "https://static.cdn.prismic.io/prismic.js?new=true&repo=juntwo",
       },
     ]
