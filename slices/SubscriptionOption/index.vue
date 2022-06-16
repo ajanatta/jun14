@@ -29,7 +29,6 @@ export default {
   name: "SubscriptionOption",
   created: () => {
     const options = getSliceComponentProps(["slice", "index", "slices", "context"]);
-    console.log(options);
   },
   // The array passed to `getSliceComponentProps` is purely optional and acts as a visual hint for you
   props: getSliceComponentProps(["slice", "index", "slices", "context"]),

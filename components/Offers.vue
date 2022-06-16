@@ -47,7 +47,6 @@ export default {
   }),
   async fetch() {
       const response = await this.$prismic.api.getSingle('offer-section');
-      console.log(response.data.body[0]);
       this.data = response.data.body[0];
   }
 }
