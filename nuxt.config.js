@@ -38,7 +38,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {
-      src: "https://dev.visualwebsiteoptimizer.com/lib/630183.js",
+      src: "~/assets/js/630183.js",
       mode: "client"
     }
   ],
