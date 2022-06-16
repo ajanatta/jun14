@@ -9,6 +9,9 @@
 <script>
 export default {
   name: 'IndexPage',
+  mounted() {
+    console.log(window._vwo_exp);
+  }
 }
 </script>
 
