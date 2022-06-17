@@ -1,3 +1,4 @@
+   console.log("Init VWO");
    window._vwo_code = window._vwo_code || (function(){
    var account_id=630582,
    settings_tolerance=2000,
