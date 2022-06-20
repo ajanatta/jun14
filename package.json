@@ -10,6 +10,7 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/prismic": "^1.4.2",
     "@prismicio/slice-simulator-vue": "^0.2.1",
     "core-js": "^3.19.3",

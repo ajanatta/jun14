@@ -59,8 +59,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/gtm'
   ],
-
+  gtm: {
+    id: 'GTM-NBNWPZB'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: ["@prismicio/vue"],
